@@ -18,10 +18,14 @@ public class Main {
 
 public static void main(String[] args) {
         int summe = Main.addiere(100,80);
+        System.out.println();
         System.out.println("Die Summe ist " + summe);
 
         int diff = Main.subtra(80,40);
-        System.out.println("Summe/Diff ist : " + diff);
+        System.out.println("Diff ist : " + diff);
+
+         boolean bolly = Main.isgleich(10);
+         System.out.println("isgleich... : " + bolly);
 
 
 }
