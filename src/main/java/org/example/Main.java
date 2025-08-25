@@ -8,12 +8,21 @@ public class Main {
     public static int subtra(int a, int b) {
         return a - b;
     }
+
+    public static boolean isgleich(int nummer){
+        return nummer % 2 == 0;
+    }
+
+
+
+
 public static void main(String[] args) {
-        int summe = Main.addiere(50,10);
+        int summe = Main.addiere(100,80);
         System.out.println("Die Summe ist " + summe);
 
-        int diff = Main.subtra(-20,4);
+        int diff = Main.subtra(80,40);
         System.out.println("Summe/Diff ist : " + diff);
+
 
 }
 }
